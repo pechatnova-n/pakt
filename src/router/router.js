@@ -1,7 +1,7 @@
 import { createWebHistory, createRouter } from 'vue-router'
 
-import LoginPage from '../components/LoginPage.vue'
-import PersonalAccountPage from '../components/PersonalAccountPage.vue'
+import LoginPage from '../pages/LoginPage.vue'
+import PersonalAccountPage from '../pages/PersonalAccountPage.vue'
 
 const routes = [
   { path: '/', component: LoginPage },
